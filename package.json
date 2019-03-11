@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "iview": "^3.3.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.6"
+  }
+}
