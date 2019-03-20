@@ -50,7 +50,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --inline",
-    "build": "webpack --config webpack.build.js"
+    "build": "webpack --config webpack.build.js",
+    "server": "forever stopall && forever ./develop/server/index.js -w ./develop/server "
   },
   "repository": {
     "type": "git",
